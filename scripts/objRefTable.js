@@ -86,13 +86,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.InstantGamesBridge.Cnds.IsStorageSupported,
 		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.Plugins.InstantGamesBridge.Acts.ShowRewarded,
-		C3.Plugins.InstantGamesBridge.Acts.ShowBanner,
-		C3.Plugins.InstantGamesBridge.Acts.AddToFavorites,
-		C3.Plugins.InstantGamesBridge.Acts.InviteFriends,
+		C3.Plugins.InstantGamesBridge.Acts.ShowInterstitial,
 		C3.Plugins.InstantGamesBridge.Cnds.OnRewardedClosed,
 		C3.Plugins.Sprite.Cnds.IsVisible,
-		C3.Plugins.InstantGamesBridge.Cnds.OnRewardedRewarded,
-		C3.Plugins.InstantGamesBridge.Acts.ShowInterstitial
+		C3.Plugins.InstantGamesBridge.Cnds.OnRewardedRewarded
 	];
 };
 self.C3_JsPropNameTable = [
